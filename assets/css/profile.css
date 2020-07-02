@@ -1,0 +1,21 @@
+form{
+    text-align: center;
+    margin-top: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    color: darkgray;
+}
+
+form div{
+    display: inline-block;
+}
+
+form div input{
+    padding: 15px 30px;
+    border: 2px solid slategray;
+}
+
+button{
+    padding: 10px 30px;
+}
+

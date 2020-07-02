@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="/css/profile.css">
+
+<form action="/user/update/<%=locals.user.id%>"  method="POST" enctype="multipart/form-data">
+    
+    <div>
+        <input type="text" name="Username" value="<%= locals.user.Username %>">
+    </div>
+
+    <div>
+        <input type="password" name="password" value="<%= locals.user.password %>">
+    </div>
+
+    <div>
+        <input type="email" name="email" value="<%= locals.user.email %>">
+    </div>
+
+    <div>
+        <input type="text" name="designation" value="<%= locals.user.designation %>">
+    </div>
+
+    <div>
+        <button>update</button>
+    </div>
+</form>
